@@ -42,7 +42,7 @@ The main idea of the research is to prove the statement that several "inexpensiv
   
 ## Information Fusion
   At this stage of the research, the fusion of audio and video data had been analysed visually. <br> 
-  ![image](https://user-images.githubusercontent.com/19166880/146533362-b6593682-f342-41cf-94db-f3734cb0482b.png)
+  ![ezgif com-gif-maker](https://user-images.githubusercontent.com/19166880/146758305-d6a2467e-c701-4ea0-8317-2068976489e3.gif)
   Overall systems performed satisfactory in conjuction.<br>
 ## Further Work
   Audio signals can be very noisy and in some cases, it is a complicated task to detect a vehicle in a current ROI.<br>
