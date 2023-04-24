@@ -16,6 +16,7 @@ The main idea of the research is to prove the statement that several "inexpensiv
   Different areas of the city had been explored until the best-fitted was found.<br>
   ![image](https://user-images.githubusercontent.com/19166880/146508968-4735e7b4-a308-4c14-a68b-c6b4b1dcc4b3.png)
   ![image](https://user-images.githubusercontent.com/19166880/146509028-86d09b80-e00b-4286-be87-954729e315e8.png)
+  
   The chosen spot had a good observation angle and a complicated traffic scheme with turn lines, traffic lights and a crossroad.<br>
   These aspects made the chosen spot the most attractive to the aim of this project.<br>
   ![image](https://user-images.githubusercontent.com/19166880/146511547-91908eef-e1a3-40be-b496-8e48ecde56bd.png)
@@ -28,6 +29,7 @@ The main idea of the research is to prove the statement that several "inexpensiv
   The quality of the model significantly dropped as was expected.<br>
   This step was meant to prove the hypothesis that such an approach, once trained, could not be reapplied on various roads.<br>
   ![image](https://user-images.githubusercontent.com/19166880/146529614-6aa2edb0-5703-4295-90bb-81536bbc6b6a.png)
+  
   Than a simple CNN was trained on the spot to the futher usage in conjuction with an audio model.<br>
   This model had a simplified task only to detect a vehicle in a small region of interest.<br>
   ![image](https://user-images.githubusercontent.com/19166880/146530988-29acc830-a756-4dbc-920c-47a94583b3e6.jpg)
@@ -36,13 +38,16 @@ The main idea of the research is to prove the statement that several "inexpensiv
   An audio dataset had been collected using a simple audio recorder on a cell phone and then synchronized with the video dataset.<br>
   A raw signal was converted to a mel-spectrogram and labelled "car"/"no car".<br>
   ![image](https://user-images.githubusercontent.com/19166880/146531644-2b6e4350-b3c3-4ef5-a8cd-4e943b8faabf.png)
+  
   Due to a huge class imbalance an augmentation to the "car" class had been applied.<br>
   ![image](https://user-images.githubusercontent.com/19166880/146532538-a133f673-4d12-4f55-af67-7164169450dd.png)
+  
   After that a pretrained ResNet34 had been fine-tuned to recognize aforementioned classes.<br>
   
 ## Information Fusion
   At this stage of the research, the fusion of audio and video data had been analysed visually. <br> 
   ![ezgif com-gif-maker](https://user-images.githubusercontent.com/19166880/146758305-d6a2467e-c701-4ea0-8317-2068976489e3.gif)
+  
   Overall systems performed satisfactory in conjuction.<br>
 ## Further Work
   Audio signals can be very noisy and in some cases, it is a complicated task to detect a vehicle in a current ROI.<br>
